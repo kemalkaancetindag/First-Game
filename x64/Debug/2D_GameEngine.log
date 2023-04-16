@@ -1,4 +1,6 @@
 ﻿  Game.cpp
   main.cpp
   Generating Code...
-  2D_GameEngine.vcxproj -> C:\Dev\cpp_tutorials\2D_GameEngine\x64\Debug\2D_GameEngine.exe
+Game.obj : error LNK2019: unresolved external symbol IMG_Load referenced in function "public: void __cdecl Game::init(char const *,int,int,int,int,bool)" (?init@Game@@QEAAXPEBDHHHH_N@Z)
+C:\Users\kaanc\Downloads\Dev\Dev\SDL2_image-2.0.1\lib\x86\SDL2_image.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\Dev\cpp_tutorials\2D_GameEngine\x64\Debug\2D_GameEngine.exe : fatal error LNK1120: 1 unresolved externals
