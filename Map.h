@@ -1,27 +1,24 @@
 #pragma once
-#include "Game.hpp"
 #include "ECS/Components.h"
 
 
 class Map {
 public:
-	Map();
+	Map(std::string tID, int ms, int ts);
 	~Map();
 
-	void LoadMap(int arr[20][25]);
-	void DrawMap();
+	void LoadMap(std::string path, int sizeX, int sizeY);
+	void AddTile(int srcX, int srcY, int xpos, int ypos);
+	
 
 	
 
 private:
+	std::string textureID;
+	int mapScale;
+	int tileSize;
+	int scaledSize;
 
-	SDL_Rect src, dest;
-
-	SDL_Texture* dirt;
-	SDL_Texture* grass;
-	SDL_Texture* water;
-
-	int map[20][25];
 
 
 };

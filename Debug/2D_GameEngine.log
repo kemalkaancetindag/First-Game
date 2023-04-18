@@ -1,2 +1,8 @@
 ﻿  Game.cpp
+C:\Dev\cpp_tutorials\2D_GameEngine\2D_GameEngine\ECS\TileComponent.h(23,16): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Dev\cpp_tutorials\2D_GameEngine\2D_GameEngine\ECS\TileComponent.h(24,16): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Dev\cpp_tutorials\2D_GameEngine\2D_GameEngine\ECS\TileComponent.h(39,27): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Dev\cpp_tutorials\2D_GameEngine\2D_GameEngine\ECS\TileComponent.h(40,27): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Dev\cpp_tutorials\2D_GameEngine\2D_GameEngine\Game.cpp(102,66): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Dev\cpp_tutorials\2D_GameEngine\2D_GameEngine\Game.cpp(103,66): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
   2D_GameEngine.vcxproj -> C:\Dev\cpp_tutorials\2D_GameEngine\Debug\2D_GameEngine.exe

@@ -138,6 +138,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Collision.cpp" />
+    <ClCompile Include="ECS\ECS.cpp" />
     <ClCompile Include="ECS\Vector2D.cpp" />
     <ClCompile Include="Game.cpp" />
     <ClCompile Include="GameObject.cpp" />
@@ -146,11 +147,14 @@
     <ClCompile Include="TextureManager.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="ECS\Animation.h" />
+    <ClInclude Include="AssetManager.h" />
     <ClInclude Include="ECS\ColliderComponent.h" />
     <ClInclude Include="Collision.h" />
     <ClInclude Include="ECS\Components.h" />
     <ClInclude Include="ECS\ECS.h" />
     <ClInclude Include="ECS\KeyboardController.h" />
+    <ClInclude Include="ECS\TileComponent.h" />
     <ClInclude Include="ECS\TransformComponent.h" />
     <ClInclude Include="ECS\SpriteComponent.h" />
     <ClInclude Include="ECS\Vector2D.h" />
@@ -160,7 +164,11 @@
     <ClInclude Include="TextureManager.h" />
   </ItemGroup>
   <ItemGroup>
+    <Image Include="..\..\..\..\Users\kaanc\Downloads\player_idle.png" />
     <Image Include="..\..\parts\men.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="assets\p16x16.map" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
